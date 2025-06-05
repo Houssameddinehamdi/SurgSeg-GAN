@@ -13,7 +13,7 @@ conda virtual environment is recommended:
 
 2- Data split is needed, folowing a known split for fair comparison with the state of the art techniques (Refer to the "Data Split" folder).
 
-3- Download and extract Endovis 2017, and Endovis 2017 train and val images from: https://opencas.dkfz.de/endovis/datasetspublications/ . The training and validation data are expected to be in the train folder and val folder respectively: 
+3- Download and extract Endovis 2017, and Endovis 2018 train and val images from: https://opencas.dkfz.de/endovis/datasetspublications/ . The training and validation data are expected to be in the train folder and val folder respectively: 
 
 for images:
 
