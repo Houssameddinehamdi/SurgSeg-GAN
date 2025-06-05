@@ -10,8 +10,11 @@ conda virtual environment is recommended:
 
 # Data Preparation 
 1- Yolo formating is needed for the images (Refer to "Preprocessing" folder). 
-2- Data split is needed, folowing a known split for fair comparison with the state of the art techniques (Refer to the "Data Split" folder)
+
+2- Data split is needed, folowing a known split for fair comparison with the state of the art techniques (Refer to the "Data Split" folder).
+
 3- Download and extract Endovis 2017, and Endovis 2017 train and val images from: https://opencas.dkfz.de/endovis/datasetspublications/ . The training and validation data are expected to be in the train folder and val folder respectively: 
+
 for images:
 
     |-- /path/to/Endovis/
@@ -25,8 +28,9 @@ for labels (in yolo format):
     |-- images/val
 
 # Train 
-1- Refere to "Train" folder above and "config.yaml" file
-2- for the Training you have to prepare your "config.yaml" file following ours and then call it in Train code which is provided in "Train" folder 
+1- Refere to "Train" folder above and "config.yaml" file.
+
+2- For the Training you have to prepare your "config.yaml" file following ours and then call it in Train code which is provided in "Train" folder.
 
 # Test 
-for the testing part use the testing files in Endovis Dataset and Refer to the codes provided in "Test" folder above 
+For the testing part use the testing files in Endovis Dataset and Refer to the codes provided in "Test" folder above. 
