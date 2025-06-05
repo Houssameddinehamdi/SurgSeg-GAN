@@ -5,7 +5,7 @@ accurate segmentation of surgical instruments is critical for improving safety a
 # Requirements 
 conda virtual environment is recommended: 
 
-    conda create -n Surgseg python=3.8
+    conda create -n Surgseg python=3.11.5
     pip install -r requirements.txt
 
 # Data Preparation 
