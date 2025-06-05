@@ -1,0 +1,65 @@
+path: D:\Dataset_parts\Datasplit\2018
+train: images/train
+val: images/val
+task: "segment" 
+nc: 12
+names: 
+  - "Background"
+  - "instrument-shaft"
+  - "instrument-clasper"
+  - "instrument-wrist"
+  - "kidney-parenchyma"
+  - "covered-kidney"
+  - "thread"
+  - "clamps"
+  - "suturing-needle"
+  - "suction-instrument"
+  - "small-intestine"
+  - "ultrasound-probe"
+#
+#- "whole-Tool" 
+#- "Prograsp-Forceps"
+#- "Maryland-Bipolar-Forceps"
+#- "Large-Needle-Driver"
+#- "Bipolar Forceps"
+#- "Vessel Sealer"
+#- "Grasping Retractor"
+#- "Monopolar Curved Scissors" 
+#- "Other"
+  #- "Background"
+  #- "Wrist"
+  #- "Claspers"
+  #- "Shaft"
+  #- "Probe"
+  #- "whole-Tool"
+# Class colors (RGB format)
+class_colors:
+  Background: [0, 0, 0]
+  instrument-shaft: [0, 255, 0]
+  instrument-clasper: [0, 255, 255]
+  instrument-wrist: [125, 255, 12]
+  kidney-parenchyma: [255, 55, 0]
+  covered-kidney: [24, 55, 125]
+  thread: [187, 155, 25]
+  clamps: [0, 255, 125]
+  suturing-needle: [255, 255, 125]
+  suction-instrument: [123, 15, 175]
+  small-intestine: [124, 155, 5]
+  ultrasound-probe: [12, 255, 141]
+
+
+  #whole-Tool: [0, 255, 0]
+  #Prograsp Forceps: [255, 0, 0]
+  #Maryland Bipolar Forceps: [0, 255, 0]
+  #Large Needle Driver: [255, 255, 0]
+  #Bipolar Forceps: [128, 0, 128]
+  #Vessel Sealer": [255, 0, 125]
+  #Grasping Retractor: [204, 153, 204]
+  #Monopolar Curved Scissors: [255, 255, 204]
+  #Other: [0, 0, 255]
+  #Background: [0, 0, 0]
+  #Wrist: [0, 255, 0]
+  #Claspers: [0, 0, 255]
+  #Shaft: [255, 0, 0]
+  #Probe: [255, 255, 0]
+  #whole-Tool: [0, 255, 0]
